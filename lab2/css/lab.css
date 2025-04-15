@@ -1,9 +1,50 @@
-/* Here we can set styles for this lab page that we don't want to effect others pages */
+
+
+body {background-color:  #191e74;}
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #000000;
+  background-color: #ffecb9;
+}
+
+
+
+/* we can have rules apply to multiple elements at the same time with commas */
+
+
+/* and we can have rules that overlap other rules, both take effect */
+h1 {
+  letter-spacing: 5px;
+  word-spacing: 5px;
+  font-size: 200%;
+}
+
+/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+#content {
+  margin: 10px;
+  padding: 10px;
+  border: solid 1px #000000;
+  background-color: #475c91;
+}
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+
+h1, h2, h3{font-family: "Lilita One", sans-serif;
+}
+
+/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
+
+  h1 { 
+    color:darkgoldenrod
   }
+
+ h2 {
+  color:rgb(42, 98, 28)
+ }
+
+p{font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-indent: 20px;
+margin-left: 10px;}
+
