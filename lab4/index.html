@@ -2,7 +2,7 @@
 <html>
 <head>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>Lab X - Subject/Topic</title>
+	<title>Lab 4 - Psuedocoding and Problem Solving</title>
 
 	<!-- Use UTF character set, a good idea with any webpage -->
   	<meta charset="UTF-8" />
@@ -23,29 +23,140 @@
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
 		<section>
-			<h1>Lab X - Subject/Topic</h1>
+			<h1>Lab 4 - Psuedocoding and Problem Solving</h1>
+			<div class="minor-section">
+                    <h2>Simple Task Outline - Changing a Tire</h2>
+					<ol>
+						<li>Gather tools/materials</li>
+						<ul>
+							<li>Spare Tire</li>
+							<li>Tire iron</li>
+							<li>Jack</li>
+							<li>Tire Wedges</li>
+						</ul>
+						<li> Setup</li>
+						<ul>
+							<li>Loosen Lugs</li>
+							<li>Wedge Tires</li>
+						</ul>
+						<li> Lift Car</li>
+						<ol>
+							<li>Locate solid area of frame</li>
+							<li>Place jack under</li>
+							<li>lift the car with the jack</li>
+						</ol>
+						<li> Tire Removal</li>
+						<ol>
+							<li>Remove lugs fully with tire iron</li>
+							<li>Remove Tire</li>
+						</ol>
+						<li> Attach Spare</li>
+						<ol>
+							<li>Mount Spare</li>
+							<li>Secure spare tire with lugs</li>
+						</ol>
+						<li> Finishing Up</li>
+						<ol>
+							<li>Lower Car with jack</li>
+							<li>Give lugs a final tightening</li>
+							<li>Put away tools and materials</li>
+						</ol>
+					</ol>
+			</div>
+			<div class="minor-section">
+			
+				<h2>Creating Connect 4</h2>
+			<ol>
+				<li>Print the board before each turn</li>
+				<li>Accept user input</li>
+				<li>Validate user move (check if column full)</li>
+				<li>Reprompt if invalid move</li>
+				<li>Place tile at topmost unfilled spot hosen in column</li>
+				<li>Check if Four are in a row</li>
+				<li>Repeat until board filled or Four in a Row</li>
+			</ol>
+		</div>
+
+		<div class="minor-section">
+			<h2>Psuedocode - Connect 4</h2>
+			<pre><code>
+// Four in a row
+	// An implementation of the game
+	// Ethan Price <elprice@ucsc.edu>
+	// April 2024
+
+	// Print the board before each turn
+			// Loop through each row
+				// Print X, 0, or Space
+				// Print a line between
+			// Print a newline
+			// Print a horizontal line after each row
+
+	// Game Loop
+	//Loop until board is full OR four in a row:
+		// Accept user input
+		// Prompt user for column choice
+
+		// Validate user move 
+		// While chosen column is full:
+			// Print "Choose another column"
+			// Prompt user for new column choice
+
+		// Place tile
+		// Locate topmost empty row in chosen column
+		// Place current player's tile (X/0)
+
+		// Check for win
+		// If four tiles in a row (horizontal/vertical/diagonal):
+			// Print "Player {tile(X/0)} wins!"
+			// Break loop/Return
+
+		// Check for tile
+		// If all tiles filled
+			// Print ("TIe Game")
+			// Break loop/Return
+
+			//  Switch players
+			// Alternate current player (from X to 0 or 0 to X)
+			</code></pre>
+	</div>
+
 			<div class="minor-section">
 					<h2>Challenge</h2>
-					<p>Restate the challenge of the lab here.</p>
+					<p>The challenege of this lab was to approach tasks
+						in a broken down, step by step, form in order to 
+						get comfortable with pseudocoding and java script.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Problems</h2>
-					<p>What problems arose? How did you solve them? </p>
+					<p>The psuedocoding aspect of this assignment was definitely the  most challenging, as it was the  
+						newest aspect to me. However, thinking of the code in terms of a simple list broken up into
+						larger and smaller tasks made it much more approachable.  </p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Reflection</h2>
-					<p>Put your reflections about this assignment here. How did it go? What kind of energy did you put into the assignment? </p>
+					<p>One thing this lab made me think about is how much easier something becomes when thought of in terms of a step by 
+						step list. This simplifies a lot of the work involved and causes for a much less confusing experience, something
+						that was once overwhelming turned into an approachable and simple process.
+					</p>
 			</div>
 
 			<div class="minor-section">
 					<h2>Results</h2>
 					<div id="output"></div>
+
+					<img id= "image-1" src="./img/image-1.png">
+					<img id= "image-2" src="./img/image-2.png">
+					<img id= "image-3" src="./img/image-3.png">
+
 			</div>
 		</section>
 		<nav id="links">
 			<!-- Put links to other pages (including the homepage) here. -->
+			 <a href="../index.html"> Ethan's Homepage </a>
 		</nav>
 	</main>
 </body>
