@@ -4,6 +4,20 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #DDD8C4;
+    border: solid 1px #000000;
+    background-color: #C8A2C8;
   }
+
+
+  #truck {
+ width: 450px;
+
+  }
+
+.color {
+  color: lavender;
+}
+
+.colour {
+  color:rgb(0, 0, 0)
+}
