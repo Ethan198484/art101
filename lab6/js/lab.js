@@ -51,3 +51,36 @@ function main() {
 
 // let's get this party started
 main();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function theElephant (someFood){
+
+  let userSortedText=someFood.split("").sort().join("");
+
+  return userSortedText;
+
+}
+
+
+
+
+let userText=window.prompt("Please say something");
+
+let finalText=theElephant(userText);
+
+document.writeln(finalText);
+
