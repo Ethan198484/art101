@@ -13,3 +13,19 @@ $("#button-challenge").click(function() {
 });
 
 
+$("#problems").append("<button id='button-problems'>Make Special</button>");
+
+//add click listener
+$("#button-problems").click(function() {
+    $("#problems").toggleClass("special");
+});
+
+
+
+$("#results").append("<button id='button-results'>Make Special</button>");
+
+//add click listener
+$("#button-results").click(function() {
+    $("#results").toggleClass("special");
+});
+
