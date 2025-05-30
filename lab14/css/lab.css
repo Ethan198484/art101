@@ -7,16 +7,10 @@
   background-color: #A3C9A8;
 }
 
-.special{
-   background-color: lavender;
-   color: pink;
-   border:dotted 50px red;
-   font-weight:bold;
+
+#debug{
+
+  width: 500px;
+  
 
 }
-
-
-
-
-
-
